@@ -1,9 +1,9 @@
 import numpy as np
 
-T = 100  # Total number of trials.
+T = 10000  # Total number of trials.
 N = 4   # Number of machines.
 r = 1   # Reward of a success trial.
-epsilon = 0.1  # Define the parameter of epsilon for the epsilon-greedy algorithm.
+epsilon = 1.0  # Define the parameter of epsilon for the epsilon-greedy algorithm.
 p_a = np.array([0.3, 0.5, 0.2, 0.8])
 Q_a = np.zeros(N)
 N_a = np.zeros(N)
